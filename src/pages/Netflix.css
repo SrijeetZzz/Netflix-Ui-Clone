@@ -1,0 +1,60 @@
+.buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.4rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2.4rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    opacity: 0.8;
+}
+.buttons button:nth-of-type(2) {
+    background-color: rgba(109,109,110,0.7);
+    color: white;
+    font-weight: normal;
+
+}
+.buttons button:nth-of-type(2)svg{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+.buttons button:nth-of-type(1) {
+    background-color: white;
+    color: black;
+    font-weight: normal;
+}
+.hero{
+    position: relative;
+}
+.hero img{
+    height: 100vh;
+    width: 100vw;
+}
+.background-image{
+    filter:brightness(60%);
+}
+.Netflix{
+    background-color: black;
+}
+.buttons{
+    display: flex;
+    margin: 5rem;
+    gap: 2rem;
+}
+.movielogo img{
+    width: 100%;
+    height: 100%;
+    margin-left: 5rem;
+}
+.ncontainer{
+    position: absolute;
+    bottom: 5rem;
+
+}
